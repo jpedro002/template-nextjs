@@ -1,9 +1,9 @@
 import './globals.css'
 
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
 
 import { Toaster } from '@/components/ui/toaster/toaster'
+import { Poppins } from 'next/font/google'
 import { ReduxProvider } from '@/store/provider'
 
 const poppins = Poppins({
