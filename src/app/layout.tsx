@@ -1,10 +1,10 @@
 import './globals.css'
 
 import type { Metadata } from 'next'
+import { Poppins } from 'next/font/google'
 
 import { Toaster } from '@/components/ui/toaster/toaster'
 import { ReduxProvider } from '@/store/provider'
-import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({
 	subsets: ['latin'],
